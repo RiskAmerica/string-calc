@@ -29,7 +29,7 @@ class MultiplicationOperator extends AbstractOperator
      */
     public function operate($leftNumber, $rightNumber)
     {
-        return $leftNumber * $rightNumber;
+        return bcmul($leftNumber, $rightNumber, 0);
     }
 
 }

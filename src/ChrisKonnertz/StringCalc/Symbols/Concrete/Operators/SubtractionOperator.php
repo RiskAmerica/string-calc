@@ -35,7 +35,7 @@ class SubtractionOperator extends AbstractOperator
      */
     public function operate($leftNumber, $rightNumber)
     {
-        return $leftNumber - $rightNumber;
+        return bcsub($leftNumber, $rightNumber, 0);
     }
 
 }

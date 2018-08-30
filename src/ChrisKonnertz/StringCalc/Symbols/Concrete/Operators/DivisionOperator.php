@@ -29,7 +29,7 @@ class DivisionOperator extends AbstractOperator
      */
     public function operate($leftNumber, $rightNumber)
     {
-        return $leftNumber / $rightNumber;
+        return bcdiv($leftNumber, $rightNumber, 0);
     }
 
 }

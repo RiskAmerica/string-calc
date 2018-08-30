@@ -29,7 +29,7 @@ class ModuloOperator extends AbstractOperator
      */
     public function operate($leftNumber, $rightNumber)
     {
-        return $leftNumber % $rightNumber;
+        return bcmod($leftNumber, rightNumber);
     }
 
 }

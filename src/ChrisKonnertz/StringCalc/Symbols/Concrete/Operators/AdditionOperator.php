@@ -29,7 +29,7 @@ class AdditionOperator extends AbstractOperator
      */
     public function operate($leftNumber, $rightNumber)
     {
-        return $leftNumber + $rightNumber;
+        return bcadd($leftNumber, $rightNumber);
     }
 
 }

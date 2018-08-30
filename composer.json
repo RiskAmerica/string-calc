@@ -14,7 +14,10 @@
   "autoload": {
     "psr-0": {
       "ChrisKonnertz\\StringCalc": "src/"
-    }
+    },
+    "files":[
+      "src/ChrisKonnertz/StringCalc/helpers.php"
+    ]
   },
   "minimum-stability": "dev"
 }
